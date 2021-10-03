@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react';
+import { fetchWeather } from './api/fetchWeather';
+import './App.css'
 
 const App = () => {
+    //const [ query, setQuery ] = useState('')
     return (
-        <div>
-            <h2>hola desde el App</h2>
+        <div className='main-container'>
+            
         </div>
     )
 }
