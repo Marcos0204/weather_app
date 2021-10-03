@@ -12,7 +12,7 @@ const App = () => {
             setQuery('');
         }
     }
-    console.log(weather)
+    
     return (
         <div className='main-container'>
             <input
